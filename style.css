@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontenier{
+    /* border: 2px solid red; */
+    height: 99vh;
+    width: 99vw;
+}
+.maincontenier-navBar{
+    /* border: 2px solid green; */
+    height: 14%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.maincontenier-navBarLeftside{
+/* border: 2px solid blue; */
+height: 85%;
+width: 35%;
+
+}
+.maincontenier-navBarLeftside img{
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid red; */
+    margin-left: 3rem;
+    
+}
+.maincontenier-navBarRightSide{
+    /* border: 2px solid blue; */
+    height: 85%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.maincontenier-navBarRightSide-leftside{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.maincontenier-navBarRightSide-leftside-child{
+    /* border: 2px solid red; */
+    height: 98%;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.maincontenier-navBarRightSide-leftside-child img{
+    height: 50%;
+    width: 70%;
+}
+.maincontenier-navBarRightSide-rightSide{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.maincontenier-navBarRightSide-rightSide-joinnow{
+    /* border: 2px solid rgb(81, 255, 0); */
+    height: 86%;
+    width: 40%;
+}
+.maincontenier-navBarRightSide-rightSide-joinnow button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 540;
+}
+/* maincontenier-navBarRightSide-rightSide-joinnow button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+} */
+
+.maincontenier-navBarRightSide-rightSide-signup{
+    /* border: 2px solid rgb(81, 255, 0); */
+    height: 86%;
+    width: 40%;
+}
+.maincontenier-navBarRightSide-rightSide-signup button{
+    height: 100%;
+    width: 100%;
+    border:3px solid #2977c9;
+    outline: none;
+    border-radius: 50px;
+    background-color:white ;
+    font-size: 20px;
+    color: #2977c9;
+    font-weight: 540;
+}
+.maincontenier-signupContain{
+    /* border: 2px solid rgb(128, 0, 60); */
+    height: 86%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content:start; */
+    /* margin-left: 8rem; */
+}
+.maincontenier-signupContain-leftside{
+    /* border: 2px solid rgb(128, 0, 60); */
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.maincontenier-signupContain-leftside h1{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 20%;
+    margin-top: 40px;
+    font-size: 46px;
+    font-weight: normal;
+
+}
+.signupContain-inside{
+    /* border: 2px solid blue; */
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.signupContain-inside input{
+/* border: 2px solid red; */
+width: 80%;
+height: 15%;
+
+}  
+.signupContain-inside-checkAggrement{
+    /* border: 2px solid red; */
+    height: 18%;
+    width: 75%;
+}
+.signupContain-inside-checkAggrement span{
+    font-size: 13px;
+
+    
+}
+.policy{
+    font-size: 15px;
+    font-weight: 550;
+    text-decoration: none;
+}
+.signupContain-inside button{
+width: 80%;
+height: 20%;
+font-size: 20px;
+font-weight: 550;
+border-radius: 50px;
+border: none;
+outline: none;
+background-color: #2977c9;
+color: white;
+}
+.signupContain-inside p{
+    text-align: center;
+    font-size: 19px;
+}
+.signIn{
+    font-weight: 600;
+    font-size: 23px;
+    text-decoration: none;
+}
+.maincontenier-signupContain-rightside{
+    /* border: 2px solid rgb(128, 0, 60); */
+    height: 100%;
+    width: 50%;
+}
+.maincontenier-signupContain-rightside img{
+    height: 100%;
+    width: 100%;
+}
